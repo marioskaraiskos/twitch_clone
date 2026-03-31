@@ -12,9 +12,7 @@ cd twitch_bot
 pip install twitchio python-dotenv
 
 ### 3. Configure credentials
-Copy the example env file and fill in your own values:
-cp .env.example .env
-
+Create .env file
 Then edit `.env` with:
 - `BOT_USERNAME` — your bot's Twitch username
 - `CHANNEL_NAME` — your Twitch channel name
@@ -30,6 +28,5 @@ Your repository should be organized like this:
 twitch_bot/
 ├── bot.py
 ├── .env            # never committed (blocked by .gitignore)
-├── .env.example    # committed, with placeholder values only
 ├── .gitignore      # committed
 └── README.md       # committed
