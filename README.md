@@ -22,15 +22,14 @@ Then edit `.env` with:
 - `CLIENT_ID` — from https://dev.twitch.tv/console
 - `CLIENT_SECRET` — from https://dev.twitch.tv/console
 
-### 4. Run the bot
-python bot.py
-```
+## 4. Project Structure
 
-**Your repo structure should look like this:**
-```
+Your repository should be organized like this:
+
+```bash
 twitch_bot/
 ├── bot.py
-├── .env            ← never uploaded (blocked by .gitignore)
-├── .env.example    ← uploaded, empty values
-├── .gitignore      ← uploaded
-└── README.md       ← uploaded
+├── .env            # never committed (blocked by .gitignore)
+├── .env.example    # committed, with placeholder values only
+├── .gitignore      # committed
+└── README.md       # committed
